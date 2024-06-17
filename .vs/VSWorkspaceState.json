@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\assets",
+    "\\assets\\js"
   ],
-  "SelectedNode": "\\C:\\Users\\dasmith\\Source\\Repos\\personal-portfolio",
   "PreviewInSolutionExplorer": false
 }

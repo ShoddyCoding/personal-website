@@ -113,3 +113,13 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+document.getElementById('contactMeButton').addEventListener('click', function () {
+    const email = 'David@RegisteredNerd.org'; 
+    const subject = "I'm interested in working with you";
+    const body = 'Hello, I would like to get in touch with you about the services you offer.';
+
+    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    window.location.href = mailtoLink;
+});
